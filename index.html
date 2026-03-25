@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>高质量美女壁纸大全 - 高清手机壁纸电脑壁纸免费下载 | 高质量壁纸</title>
+<meta name="keywords" content="美女壁纸,高清壁纸,手机壁纸,电脑壁纸,白丝壁纸,JK壁纸,黑丝壁纸,高质量壁纸">
+<meta name="description" content="高质量壁纸-首发提供高清美女壁纸、手机壁纸、电脑壁纸、白丝壁纸、JK壁纸、黑丝壁纸免费下载，每日持续更新。">
+<meta name="author" content="xishuzy.com">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://photo.21im.com/">
+<link rel="stylesheet" href="style.css">
+
+<style>
+    .site-footer {
+        background-color: #1a1a1a;
+        color: #999;
+        padding: 20px 0;
+        text-align: center;
+        font-size: 14px;
+        margin-top: 40px;
+        border-top: 1px solid #333;
+    }
+    .site-footer p {
+        margin: 5px 0;
+    }
+    .site-footer a {
+        color: #999;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    .site-footer a:hover {
+        color: #fff;
+    }
+    .cr-text {
+        color: #ccc;
+        font-weight: bold;
+        user-select: none; /* 禁止选中文本 */
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+    }
+</style>
+</head>
+<body>
+
+<div id="copyright-layer" style="position:absolute; left:-9999px; top:-9999px; opacity:0; pointer-events:none;">
+    Loading Copyright...
+</div>
+
+<h1 style="display:none;">高质量美女壁纸大全</h1>
+
+<div class="desktop-layout">
+<div class="sidebar">
+<h2 class="sidebar-title">全部分类</h2>
+<div class="cat-item active" data-api="https://v2.xxapi.cn/api/heisi?return=302" data-name="黑丝">🖤 黑丝</div>
+<div class="cat-item" data-api="https://v2.xxapi.cn/api/baisi?return=302" data-name="白丝">🤍 白丝</div>
+<div class="cat-item" data-api="https://v2.xxapi.cn/api/jk?return=302" data-name="JK">🎀 JK</div>
+<div class="cat-item" data-api="https://v2.xxapi.cn/api/wapmeinvpic?return=302" data-name="手机壁纸">📱 手机壁纸</div>
+<div class="cat-item" data-api="https://v2.xxapi.cn/api/pcmeinvpic?return=302" data-name="电脑壁纸">🖥️ 电脑壁纸</div>
+<div class="cat-item" data-api="https://apis.uctb.cn/api/tbmjx?return=302" data-name="买家秀">🛍️ 买家秀</div>
+</div>
+
+<div class="mobile-cats">
+<div class="mobile-grid">
+<div class="mobile-cat active" data-api="https://v2.xxapi.cn/api/heisi?return=302" data-name="黑丝">🖤 黑丝</div>
+<div class="mobile-cat" data-api="https://v2.xxapi.cn/api/baisi?return=302" data-name="白丝">🤍 白丝</div>
+<div class="mobile-cat active" data-api="https://v2.xxapi.cn/api/jk?return=302" data-name="JK">🎀 JK</div>
+<div class="mobile-cat" data-api="https://v2.xxapi.cn/api/wapmeinvpic?return=302" data-name="手机壁纸">📱 手机壁纸</div>
+<div class="mobile-cat" data-api="https://v2.xxapi.cn/api/pcmeinvpic?return=302" data-name="电脑壁纸">🖥️ 电脑壁纸</div>
+<div class="mobile-cat" data-api="https://apis.uctb.cn/api/tbmjx?return=302" data-name="买家秀">🛍️ 买家秀</div>
+</div>
+</div>
+
+<div class="loading" id="loading">加载中...</div>
+<div class="wall-grid" id="grid"></div>
+<div class="preview" id="preview"><span class="close">×</span><img id="prevImg" loading="lazy"></div>
+
+<!-- 底部版权栏 -->
+<footer class="site-footer">
+    <div class="container">
+        <p>&copy; 2026 <a href="https://photo.21im.com" target="_blank">高质量壁纸</a>. All Rights Reserved.</p>
+        <p id="footer-cr" class="cr-text">Loading...</p>
+        <p>本站资源均来自互联网，仅供学习交流使用，请勿用于商业用途。</p>
+    </div>
+</footer>
+
+<script>
+(function() {
+    var crText = "原创内容 禁止盗用 photo.21im.com";
+    
+    // 写入版权层
+    var crLayer = document.getElementById('copyright-layer');
+    if(crLayer) crLayer.innerText = crText;
+    
+    // 写入底部版权 + 禁止右键
+    var footerCr = document.getElementById('footer-cr');
+    if(footerCr) {
+        footerCr.innerHTML = crText;
+        footerCr.oncontextmenu = () => false;
+    }
+    
+    // 控制台输出
+    console.log("%c" + crText, "color:red; font-size:16px; font-weight:bold;");
+    
+    // 设置作者meta
+    var metaAuthor = document.querySelector('meta[name="author"]');
+    if(metaAuthor) metaAuthor.content = crText;
+})();
+</script>
+
+<script src="app.js" defer></script>
+</body>
+</html>
